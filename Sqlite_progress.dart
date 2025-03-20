@@ -1,4 +1,17 @@
+class Profile{
+String name;
+int age;
+
+
+Profile(this.name,this.age);
+
+void show()=>print('Welcome: $name, Your age: $age');
+}
+
 
 void main(){
-  print('Dart progress is so good');
+
+  Profile  yes = Profile('arun', 18);
+  yes.show();
+
 }
