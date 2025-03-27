@@ -5,7 +5,7 @@ int age;
 
 Profile(this.name,this.age);
 
-void show()=>print('Welcome: $name, Age age: $age');
+void show()=>print('Welcome : $name, Age age: $age');
 
 
 void details()=>print('Welcome: $name,  Age: $age');
